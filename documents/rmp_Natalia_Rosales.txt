@@ -1,0 +1,49 @@
+PRODUCER/SOURCE: Rate My Professors
+PROFESSOR: Professor Natalia Rosales
+UNIVERSITY: The University of Texas at El Paso (UTEP)
+DEPARTMENT: Computer Science
+OVERALL RATING: 3.0 / 5.0
+DIFFICULTY RATING: 3.0 / 5.0
+WOULD TAKE AGAIN: 56%
+
+--- START OF REVIEWS ---
+
+[REVIEW 1]
+Date: Jan 19th, 2025
+Course: CS4342 (Database Management)
+Quality: 5.0 | Difficulty: 3.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A+ | Textbook: Yes
+Review Text: Many say that requirements are often confusing, I always did what I assumed would be adequate and would simply note that in my assignments. As a computer scientist you need to be able to infer things like this. The topics are incredibly easy and the textbook is there if you have a question. She is very understanding if you make reasonable errors.
+Tags: Participation matters, Group projects, Lots of homework
+
+[REVIEW 2]
+Date: Jan 2nd, 2025
+Course: CS4342 (Database Management)
+Quality: 3.0 | Difficulty: 3.0
+Attendance: Not Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A+ | Textbook: Yes
+Review Text: Pay attention in class, the final project is not documented and she will say what it is during class time. Do all the in-class activities, and study for the exams!!
+Tags: Group projects, Test heavy
+
+[REVIEW 3]
+Date: Feb 29th, 2024
+Course: CS4342 (Database Management)
+Quality: 5.0 | Difficulty: 4.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A+ | Textbook: N/A
+Review Text: Good professor.
+Tags: Group projects, Lots of homework, So many papers
+
+[REVIEW 4]
+Date: Apr 28th, 2023
+Course: CS4342 (Database Management)
+Quality: 1.0 | Difficulty: 3.0
+Attendance: Mandatory | For Credit: Yes | Grade: B | Textbook: Yes
+Review Text: very disorganized and will make anything difficult to learn. Very confused exams.
+Tags: Tough grader, Group projects, Test heavy
+
+[REVIEW 5]
+Date: Nov 26th, 2021
+Course: CS4342 (Database Management)
+Quality: 2.0 | Difficulty: 3.0
+Attendance: N/A | For Credit: Yes | Would Take Again: No | Grade: B | Textbook: No
+Review Text: Very disorganized, provided no class schedule. Lectures can be confusing and rushed, while examples can get messy. The requirements for assignments aren't always clear and change frequently after being assigned. The group project is poorly presented and planned. When she or her TA say they'll post something online expect a long wait (several days).
+Tags: Group projects

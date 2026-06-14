@@ -1,0 +1,49 @@
+PRODUCER/SOURCE: Rate My Professors
+PROFESSOR: Dr. Vladik Kreinovich
+UNIVERSITY: The University of Texas at El Paso (UTEP)
+DEPARTMENT: Computer Science
+OVERALL RATING: 4.5 / 5.0
+DIFFICULTY RATING: 2.2 / 5.0
+WOULD TAKE AGAIN: 88%
+
+--- START OF REVIEWS ---
+
+[REVIEW 1]
+Date: Jan 26th, 2026
+Course: CS3350 (Automata / Computability)
+Quality: 4.0 | Difficulty: 3.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: B | Textbook: N/A
+Review Text: The biggest piece of advice I can give is: go to the lectures. His exam reviews are gold because the actual tests end up being very similar to the review problems. He also allows a cheat sheet for exams. Fair warning: he can be very intimidating. He's the type of professor who might yell or put you on the spot.
+Tags: Beware of pop quizzes, Caring, Lecture heavy
+
+[REVIEW 2]
+Date: Dec 2nd, 2025
+Course: CS5390 (Special Topics / Graduate Course)
+Quality: 4.0 | Difficulty: 2.0
+Attendance: Not Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A
+Review Text: Go to class, he teaches by writing everything on whiteboards. Lots of in class examples during the lecture. Great dude, great stories :)
+Tags: Get ready to read, Participation matters, Lots of homework
+
+[REVIEW 3]
+Date: Aug 28th, 2025
+Course: CS4365 (Artificial Intelligence)
+Quality: 5.0 | Difficulty: 4.0
+Attendance: Not Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A | Textbook: Yes
+Review Text: He can be a tough professor if you don't fully grasp or study the material, but his lectures are outstanding. He's engaging, funny, and genuinely knowledgeable. If you're up for the challenge and ready to put in the effort, you'll learn a lot. I'd gladly take more of his classes.
+Tags: Amazing lectures, Respected, Lecture heavy
+
+[REVIEW 4]
+Date: May 30th, 2025
+Course: CS3350 (Automata / Computability)
+Quality: 5.0 | Difficulty: 2.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: B- | Textbook: N/A
+Review Text: Dr. Kreinovich doesn't tolerate incompetence, and the material can be tough if you don't pay attention. The class can get boring at times, but he makes jokes occasionally. Tests are fair and even easy if you make good use of the cheat sheets he allows.
+Tags: Caring, Respected, Lecture heavy
+
+[REVIEW 5]
+Date: May 22nd, 2025
+Course: CS3350 (Automata / Computability)
+Quality: 4.0 | Difficulty: 1.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A- | Textbook: N/A
+Review Text: Dr. Kreinovich is pretty funny and reminds me of Mario. His lectures are a little confusing and he goes fast when he should slow down and slow when he should speed up. As long as you study past exams, there is really no big need to pay attention during lectures since he just reuses the same questions.
+Tags: Gives good feedback, Respected, Graded by few things

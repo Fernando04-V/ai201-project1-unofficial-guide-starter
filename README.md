@@ -14,6 +14,10 @@
      Example: "Student reviews of CS professors at [university] — useful because official
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
 
+The domain for this project will be about student reviews of Computer Sciecen professors at the Univestiy of Texas at El Paso (UTEP).
+There is not an offical university channel where students can be better informed about professors teaching a specific class. The goal is
+to use RAG to help CS students make better registration decisions and give them the ability to optimze for the upcoming semesters.
+
 ---
 
 ## Document Sources
@@ -24,16 +28,16 @@
 
 | # | Source | Type | URL or file path |
 |---|--------|------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 |Rate My Proffesor|Reviews|docuement/olac_fuentes|
+| 2 | Rate My Proffesor|Reviews|docuement/Daniel_Mejia|
+| 3 |Rate My Proffesor|Reviews|docuement/Marcelo_Frias|
+| 4 | Rate My Proffesor|Reviews|docuement/Natalia_Rosales|
+| 5 | Rate My Proffesor|Reviews|docuement/Vladik_Kreinovich|
+| 6 | Rate My Proffesor|Reviews||
+| 7 | Rate My Proffesor|Reviews||
+| 8 | Rate My Proffesor|Reviews||
+| 9 | Rate My Proffesor|Reviews||
+| 10 | Rate My Proffesor|Reviews||
 
 ---
 

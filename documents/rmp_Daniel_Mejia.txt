@@ -1,0 +1,128 @@
+PRODUCER/SOURCE: Rate My Professors
+PROFESSOR: Dr. Daniel Mejia
+UNIVERSITY: The University of Texas at El Paso (UTEP)
+DEPARTMENT: Computer Science
+OVERALL RATING: 4.3 / 5.0
+DIFFICULTY RATING: 3.2 / 5.0
+WOULD TAKE AGAIN: 85%
+
+--- START OF REVIEWS ---
+
+[REVIEW 1]
+Date: Apr 8th, 2026
+Course: CS1301 (Computer Science I)
+Quality: 5.0 | Difficulty: 2.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Textbook: N/A
+Review Text: My favorite professor so far. He doesn't give slides but he records the classes so very helpful when you need a little bit refresher. Homework every week, but my TA's were so helpful too.
+
+[REVIEW 2]
+Date: Mar 26th, 2026
+Course: CS1301 (Computer Science I)
+Quality: 5.0 | Difficulty: 4.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A | Textbook: N/A
+Review Text: I had CS1 and CS3 with him. My first impression was not great, but after getting to know him better, he has become one of my top CS instructors. He always tries to deliver engaging lectures and puts effort so that everyone can understand the topics. Exams are difficult but not overwhelming. You should take one of his classes at least once. 
+Tags: EXTRA CREDIT, Amazing lectures, Hilarious, Helpful
+
+[REVIEW 3]
+Date: Aug 14th, 2025
+Course: CS1301 (Computer Science I)
+Quality: 5.0 | Difficulty: 2.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A+ | Textbook: N/A
+Review Text: I took CS1 (CS 1301) and Data Structures (CS 2302) with him. His lectures are always engaging and live. He actually teaches you and gives you intuition for basic CS concepts. However, he is a bit snappy at times, and some exams can be difficult. Nonetheless, he doesn't give many surprises and tells you (in general) what to expect of the exams.
+Tags: Participation matters, Amazing lectures, Lots of homework, Helpful
+
+[REVIEW 4]
+Date: May 30th, 2025
+Course: CS1101 (Intro to Computer Science Lab)
+Quality: 5.0 | Difficulty: 4.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A+ | Textbook: N/A
+Review Text: Since this is a lab, class is ran by the TA, not the professor. LOVED my TA! Not many assignments, so doing bad on one might hurt your grade. TA's got more lenient towards the end of the semester. Class focuses a lot on programming, so it's very time consuming to do the work (and stressful). TAs were very helpful though!
+Tags: EXTRA CREDIT, Graded by few things, Accessible outside class, Helpful
+
+[REVIEW 5]
+Date: May 30th, 2025
+Course: CS1301 (Computer Science I)
+Quality: 5.0 | Difficulty: 3.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A+ | Textbook: N/A
+Review Text: Dr. Mejia's lectures were very easy to understand. Topics are complicated to learn, but Dr. Mejia does his best to make sure we understand the material. The course is work heavy- weekly HW and quizzes. Time-consuming HWs. He gives extra credit on exams though. Quizzes were harder than the exams. Mandatory attendance. Learned a lot from the class!
+Tags: EXTRA CREDIT, Amazing lectures, Lots of homework, Helpful
+
+[REVIEW 6]
+Date: May 21st, 2025
+Course: CS3331 (Advanced Object-Oriented Programming)
+Quality: 2.0 | Difficulty: 5.0
+Attendance: Mandatory | For Credit: Yes | Grade: A | Textbook: Yes
+Review Text: The grading wasn't clear. The research paper was boring and stressful. It didn't feel that our teams had empowerment like Mondragon allows for SWE 1. Too tough on grads on my opinion.
+Tags: Tough grader, Group projects, So many papers
+
+[REVIEW 7]
+Date: Jan 8th, 2025
+Course: CS1301 / CS2302 (Data Structures)
+Quality: 5.0 | Difficulty: 3.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A | Textbook: N/A
+Review Text: Took him for CS 2302. The labs are quite painful until you solve it and realize the solution was pretty simple after all. Before coding section of exam, make sure to walk yourself over every coding question in the labs and homeworks. Theory part of exam is very easy. In the end, final exam is copy paste of previous exam questions.
+Tags: Clear grading criteria, Test heavy, Online Savvy, Helpful
+
+[REVIEW 8]
+Date: Jan 2nd, 2025
+Course: CS3195 (Junior Professional Orientation)
+Quality: 5.0 | Difficulty: 1.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A+ | Textbook: Yes
+Review Text: Easy class, only 8 weeks. Do all the homeworks and quizzes are easy too.
+Tags: Caring, Accessible outside class, Helpful
+
+[REVIEW 9]
+Date: Dec 25th, 2024
+Course: CS1301 (Computer Science I)
+Quality: 5.0 | Difficulty: 3.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A | Textbook: N/A
+Review Text: Good professor.
+Tags: Amazing lectures, Clear grading criteria, Inspirational, Helpful
+
+[REVIEW 10]
+Date: Jul 2nd, 2024
+Course: CS1301 (Computer Science I)
+Quality: 5.0 | Difficulty: 2.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A+ | Textbook: N/A
+Review Text: One of my favorite classes! His lectures are always entertaining and inspiring. He is really kind and tries his best to accommodate everyone. You have quizzes and homework every week (Multiple codes to create). There are multiple exams, and can be really heavy, but do check your homework for those, some problems are in the exams.
+Tags: Amazing lectures, Test heavy, Online Savvy, Helpful
+
+[REVIEW 11]
+Date: Apr 23rd, 2024
+Course: CS1301 (Computer Science I)
+Quality: 4.0 | Difficulty: 2.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A | Textbook: Yes
+Review Text: The lecture portion he only "tests" on tracing. The lab portion is where he tests actual coding. One 10 question quiz a week, 1 programming homework a week. Exams are mostly tracing.
+Tags: Clear grading criteria, Lecture heavy, Helpful
+
+[REVIEW 12]
+Date: Mar 22nd, 2024
+Course: CS3331 (Advanced Object-Oriented Programming)
+Quality: 4.0 | Difficulty: 3.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: B | Textbook: N/A
+Review Text: The amount of homework/assignments/quizzes he gives in this class does not come close to any other class/professor I've taken. You will write code day and night. His lectures are really good and he talked very clearly which is something very good when compared to other UTEP CS professors.
+Tags: Group projects, Amazing lectures, Lots of homework, Helpful
+
+[REVIEW 13]
+Date: Mar 7th, 2024
+Course: CS3195 (Junior Professional Orientation)
+Quality: 5.0 | Difficulty: 2.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A | Textbook: N/A
+Review Text: Dr. Mejia provided us with great information for our future's. The grading is weird. Start your ethics report early. Don't miss class.
+Tags: Participation matters, Amazing lectures, Caring, Helpful
+
+[REVIEW 14]
+Date: May 17th, 2023
+Course: CS3331 (Advanced Object-Oriented Programming)
+Quality: 1.0 | Difficulty: 4.0
+Attendance: Mandatory | For Credit: Yes | Grade: B | Textbook: N/A
+Review Text: The professor's approach was you learn by being pushed. He lectured for only half of the classes. The rest, he chatted with the TA's. Attendance was mandatory. There is a very time consuming semester long project which turns in to a group project. I learned a lot though mostly on my own. The final is optional. Not as good as the reviews say.
+Tags: Group projects, Clear grading criteria, Lots of homework, Helpful
+
+[REVIEW 15]
+Date: May 11th, 2023
+Course: CS3331 (Advanced Object-Oriented Programming)
+Quality: 5.0 | Difficulty: 3.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A | Textbook: N/A
+Review Text: Great Professor and a great class, but be ready to do a lot of homework for your project and don't fall behind!
+Tags: Group projects, Amazing lectures, Lots of homework, Helpful

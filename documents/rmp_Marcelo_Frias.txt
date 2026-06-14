@@ -1,0 +1,33 @@
+PRODUCER/SOURCE: Rate My Professors
+PROFESSOR: Professor Marcelo Frias
+UNIVERSITY: The University of Texas at El Paso (UTEP)
+DEPARTMENT: Computer Science
+OVERALL RATING: 3.7 / 5.0
+DIFFICULTY RATING: 3.3 / 5.0
+WOULD TAKE AGAIN: 67%
+
+--- START OF REVIEWS ---
+
+[REVIEW 1]
+Date: Aug 14th, 2025
+Course: CS2202 (Discrete Structures II)
+Quality: 5.0 | Difficulty: 5.0
+Attendance: Not Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A+ | Textbook: Yes
+Review Text: I took DS2 (CS 2202) and DS1 (CS 2101) with him. He is cool, grading is fair (even some makeup exams), and he can explain concepts for you. However, the course content is VERY difficult and there are few assignments, so read the textbook. Also, don't give up, it's possible to ace this course, but it will feel like it's impossible at times.
+Tags: Get ready to read, Caring, Graded by few things
+
+[REVIEW 2]
+Date: May 20th, 2025
+Course: CS5387 (Software Integration and V&V)
+Quality: 1.0 | Difficulty: 3.0
+Attendance: Not Mandatory | For Credit: Yes | Grade: A | Textbook: N/A
+Review Text: Took him for Integration and V & V (5387) and its easily the worst most disorganized class i have ever taken. He is a pretty cool guy but the whole class was just setting up outdated niche tools on your computer and then getting assignments with terrible instructions regarding said tool. The whole class felt like a waste of time and money.
+Tags: Group projects
+
+[REVIEW 3]
+Date: Sep 27th, 2023
+Course: CS2202 (Discrete Structures II)
+Quality: 5.0 | Difficulty: 2.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: A | Textbook: Yes
+Review Text: Great 1st year professor. You can tell he genuinely cares about teaching and computer science.
+Tags: Hilarious, Graded by few things

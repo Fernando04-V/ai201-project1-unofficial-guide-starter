@@ -1,0 +1,49 @@
+PRODUCER/SOURCE: Rate My Professors
+PROFESSOR: Dr. Olac Fuentes
+UNIVERSITY: The University of Texas at El Paso (UTEP)
+DEPARTMENT: Computer Science
+OVERALL RATING: 3.2 / 5.0
+DIFFICULTY RATING: 3.7 / 5.0
+WOULD TAKE AGAIN: 55%
+
+--- START OF REVIEWS ---
+
+[REVIEW 1]
+Date: Feb 4th, 2026
+Course: CS4363 (Computer Security)
+Quality: 1.0 | Difficulty: 3.0
+Attendance: Not Mandatory | For Credit: Yes | Textbook: Yes
+Review Text: Professor Fuentes gives frequent quizzes and expects students to learn primarily from the textbook. When students ask questions, he often directs them back to the material instead of providing detailed explanations. Assignments are sometimes given near the end of class with limited time remaining, so it can feel rushed.
+Tags: Tough grader, Beware of pop quizzes
+
+[REVIEW 2]
+Date: Dec 2nd, 2025
+Course: CS5361 (Advanced Topics in CS / Graduate Course)
+Quality: 1.0 | Difficulty: 4.0
+Attendance: Mandatory | For Credit: Yes | Textbook: N/A
+Review Text: He teaches from google colab notebooks he wrote and slides he found. Not very clear on grading criteria and assignment instructions. He doesn't respond to emails and he's not very approachable in person. The exams are hard and he'll give quizzes like last 5 mins of class.
+Tags: Beware of pop quizzes
+
+[REVIEW 3]
+Date: Jul 6th, 2025
+Course: CS2301 (Computer Architecture)
+Quality: 2.0 | Difficulty: 4.0
+Attendance: Mandatory | For Credit: Yes
+Review Text: Class was ok, could definitely improve on the way the material was taught. Got uncomfortably close to me when explaining something once he got exasperated, didnt go so far as to make it feel intentional, but wanted to note it down for people that get anxious around strangers.
+Tags: Tough grader, Lots of homework
+
+[REVIEW 4]
+Date: May 25th, 2025
+Course: CS2302 (Data Structures)
+Quality: 2.0 | Difficulty: 3.0
+Attendance: Mandatory | For Credit: Yes | Grade: B+ | Textbook: N/A
+Review Text: test heavy and lab heavy, don't fall behind on labs and you will be fine.
+Tags: Tough grader, Participation matters, Test heavy
+
+[REVIEW 5]
+Date: Nov 26th, 2024
+Course: CS4361 (Computer Graphics)
+Quality: 3.0 | Difficulty: 3.0
+Attendance: Mandatory | For Credit: Yes | Would Take Again: Yes | Grade: B+ | Textbook: N/A
+Review Text: Dr. Fuentes may not be great at explaining, but he provides good materials and exercises for you to look up and understand the concepts better. He emphasizes the use of programming. Understand the concepts for the exam while you do your hw. Get used to python libs before the class. He's pretty strict (sometimes feels like he treats us like children).
+Tags: Group projects, Clear grading criteria, Beware of pop quizzes
