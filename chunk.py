@@ -106,11 +106,31 @@ def chunk_text(
 
 
 def _context_header(review: Review) -> str:
-    """The attribution line prepended to every chunk of a review."""
-    return (
+    """The attribution + ratings lines prepended to every chunk of a review.
+
+    The numeric ratings are embedded in the text (not just stored as metadata)
+    so retrieval can actually rank on them — otherwise a query like "which
+    professor is easiest?" has no rating signal to match against, since the
+    embedding model never sees the metadata dict.
+    """
+    attribution = (
         f"Professor: {review.professor} | University: {review.university} | "
         f"Course: {review.course or 'N/A'}"
     )
+    # Render ratings as words ("Quality 4.0/5") so the embedder gets real signal
+    # even when the review prose is thin (e.g. just "Good professor").
+    rating_bits = []
+    if review.quality is not None:
+        rating_bits.append(f"Quality {review.quality}/5")
+    if review.difficulty is not None:
+        rating_bits.append(f"Difficulty {review.difficulty}/5")
+    if review.grade:
+        rating_bits.append(f"Grade {review.grade}")
+    if review.would_take_again:
+        rating_bits.append(f"Would take again: {review.would_take_again}")
+    if not rating_bits:
+        return attribution
+    return attribution + "\n" + "Student rating: " + ", ".join(rating_bits)
 
 
 def chunk_reviews(
@@ -129,9 +149,12 @@ def chunk_reviews(
         header = _context_header(review)
         tags = f"Tags: {', '.join(review.tags)}" if review.tags else ""
 
-        # Reserve room for the header (+newline) so header + body stays <= size.
-        body_budget = max(chunk_size - len(header) - 1, 100)
-        body_chunks = chunk_text(review.text, body_budget, overlap)
+        # The body gets the full chunk_size budget; the attribution/ratings
+        # header rides on top as context (it is metadata, not prose competing
+        # for the budget). This keeps short reviews as a single chunk — the
+        # stated goal in planning.md — while staying well under the embedding
+        # model's sequence limit.
+        body_chunks = chunk_text(review.text, chunk_size, overlap)
 
         for j, body in enumerate(body_chunks):
             parts = [header, body]

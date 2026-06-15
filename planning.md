@@ -53,6 +53,13 @@ Chunk Overlap: 100 characters (roughly 15–20 words). Since some reviews are sl
 **Reasoning:**
 
 The reviews from RMP are brief, it will not be necessary to have a heavy chunk size approach.
+
+**Final result (after implementation):** 33 reviews → **33 chunks** (1 per
+review). Every review was short enough to fit in a single chunk, so the
+500/100 split never actually fired — it acts as a safety net for long reviews.
+Implementation note: I also fold each review's numeric ratings
+(`Student rating: Quality x/5, Difficulty y/5`) into the chunk text so retrieval
+can rank on ratings, and I use a native recursive splitter instead of LangChain.
 ---
 
 ## Retrieval Approach
@@ -87,11 +94,11 @@ Storage Scales: While ChromaDB is perfect for a local project, a production app 
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 |What specific advice do students give for passing Dr. Kreinovich's exams in CS 3350? | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | What specific advice do students give for passing Dr. Kreinovich's exams in CS3350? | Attend lectures; his exam reviews predict the actual tests; cheat sheets are allowed; study past exams because he reuses questions. |
+| 2 | Which CS professor has the lowest difficulty / is the easiest? | Based on the review data, a Kreinovich CS3350 review reports Difficulty 1.0/5 — the lowest single rating in the corpus. (See Failure Case Analysis — superlatives are hard for top-k retrieval.) |
+| 3 | How is Dr. Olac Fuentes at explaining material in class? | Not strong at explaining; he provides good materials/exercises but redirects students to the textbook rather than giving detailed explanations. |
+| 4 | What do students say about Dr. Daniel Mejia's lectures and exams? | Engaging, well-liked lectures; exams are difficult but predictable; offers extra credit; quizzes are harder than the exams. |
+| 5 | What is Professor Natalia Rosales like for CS4342 (Database Management)? | Generally a good professor but disorganized with confusing requirements; lots of group projects and homework; test heavy. |
 
 ---
 
@@ -160,7 +167,26 @@ Input to Claude: Ask Claude to draft a system prompt for llama-3.3-70b-versatile
 Expected Output: A complete completion block utilizing the Groq SDK client that formats the retrieved contexts into the LLM system instructions cleanly.
 
 **Milestone 3 — Ingestion and chunking:**
+Implemented in `ingest.py` and `chunk.py`. `ingest.py` parses each `.txt` file
+into a file-level header plus structured `[REVIEW N]` records (course, quality,
+difficulty, grade, tags, body). `chunk.py` turns each review into one chunk,
+prepending a `Professor | University | Course` attribution header and a
+`Student rating:` line. Result: 33 reviews → 33 chunks. Native recursive
+splitter (no LangChain dependency).
 
 **Milestone 4 — Embedding and retrieval:**
+Implemented in `embed.py`. Chunks are embedded locally with `all-MiniLM-L6-v2`
+(384-dim, normalized) and stored in a persistent ChromaDB collection using
+cosine distance. `query_vector_db(query, k=4)` returns the top-k chunks with
+their source metadata and a 0–1 similarity score. On-domain queries return
+similarities of ~0.6–0.74; out-of-domain queries fall to ~0.3.
 
 **Milestone 5 — Generation and interface:**
+Implemented in `generate.py` and `app.py`. `generate.py` retrieves context,
+formats labelled `[S#]` sources, and calls Groq `llama-3.3-70b-versatile` with a
+strict grounding system prompt (answer only from context; refuse with a fixed
+phrase otherwise; cite inline). Attribution is also appended programmatically
+from retrieval metadata. `app.py` is a Gradio web UI (run `python app.py`, open
+http://localhost:7860). Verified end-to-end on the 5 evaluation questions plus an
+out-of-domain refusal. Note: Gradio is pinned to 5.x because 6.x requires
+`huggingface-hub>=1.2`, which conflicts with the embedding stack (`<1.0`).
